@@ -1,0 +1,83 @@
+.header {
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: auto;
+    overflow: hidden;
+    line-height: 1;
+    z-index: 1001;
+}
+
+.bg-dark {
+    background-color: #83888f !important;
+    display: flex;
+    justify-content: space-between;
+}
+.header2 {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    line-height: 1;
+    z-index: 1001;
+}
+
+.header2 .logo {
+    width: 80;
+    height: 80;
+}
+
+.header2 .real {
+    font-size: 8px;
+}
+
+.header2 .gonzalo {
+    font-size: 15px;
+}
+
+.header2 .navbar-expand .navbar-nav {
+    font-size: 8px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gonzalo {
+    font-size: 30px;
+    color: gainsboro;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.real {
+    font-size: 15px;
+    color: gainsboro;
+}
+
+.navbar-expand .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.navbar-dark:hover .navbar-nav:hover .nav-link:hover {
+    background: gray;
+    border-radius: 50px;
+}

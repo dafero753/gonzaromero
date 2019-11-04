@@ -1,0 +1,28 @@
+.carousel-inner {
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.body {
+    width: 100%;
+    height: 300vh;
+    margin-top: 140px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: gainsboro;
+}
+
+.h3, h3 {
+    font-size: 1.75rem;
+    color: gainsboro;
+}
+
+.container {
+    max-width: 1000px;
+}

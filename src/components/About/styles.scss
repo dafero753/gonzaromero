@@ -1,0 +1,39 @@
+.about {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about2 {
+    background-color: burlywood;
+    width: 1000px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bg-white {
+    background-color: #fff!important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+}
+
+.gon {
+    margin: 30px;
+    width:300px;
+    border-radius:150px;
+}
+
+.texto {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: black;
+    width: 500px;
+    margin: 30px;
+}
